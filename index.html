@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<head>
+    <title>Running</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/bg.js"></script>
+    <script type="text/javascript" src="js/clock.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body onload="startTime()">
+
+<!-- Clock and search -->
+<div class="section no-pad-bot">
+    <div class="container">
+      <br><br>
+      <div class="center-align" id="txt"></div>
+      <div class="row center">
+       
+            
+          </form>
+          <form method="get" id="search" action="http://google.com/">
+            <input class="form-control mr-sm-2" type="text"  placeholder="GOOGLE" style="text-decoration: blink;" aria-label="Search">
+            <br>
+            <button class="btn blue-gradient btn-rounded btn-sm my-0" type="submit">Search</button>
+        </form>
+      </div>  
+    </div>
+  </div>
+  <div class="movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/r6hLgmgoPp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  
+<!-- Section for link containers -->
+  <div class="container">
+    <div class="section">
+      <div class="row">
+
+        <!-- Link container 1 -->
+        <div class="col s12 m4" data-aos="zoom-in">>
+          <div class="card white hoverable">
+            <div class="card-content blue-grey darken-3" ><span class="white-text">Maraton</span></div>
+            <div class="card-content">
+              <ul>
+                <li><a href="#">Berlin, Germany</a></li>
+                <li><a href="#">London, England</a></li>
+                <li><a href="#">Athens, Greece</a></li>
+                
+            </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Link container 2 -->
+        <div class="col s12 m4" data-aos="zoom-in">>
+          <div class="card white hoverable">
+            <div class="card-content blue-grey darken-3"><span class="white-text">Half-Marathon</span></div>
+            <div class="card-content">
+              <ul>
+                <li><a href="#">Valencia, Spain</a></li>
+                <li><a href="#">Palermo, Italy</a></li>
+                <li><a href="#">Bruxelles, Belgium</a></li>
+             
+            </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Link container 3 -->
+        <div class="col s12 m4" data-aos="zoom-in">>
+          <div class="card white hoverable">
+            <div class="card-content blue-grey darken-3"><span class="white-text">10 km</span></div>
+              <div class="card-content">
+                <ul>
+                  <li><a href="#">Cracov, Poland</a></li>
+                  <li><a href="#">Barcelona, Spain</a></li>
+                  <li><a href="#">Ottawa, Canada</a></li>
+               
+              </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+  </div>
+  </div>
+  </div>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
+
